@@ -61,7 +61,7 @@ prov==2.0.1
 puremagic==1.29
 pyasn1==0.6.1
 pyasn1_modules==0.4.2
-pydantic==2.11.4
+pydantic>=2.0.0
 pydantic_core==2.33.2
 pydot==4.0.0
 pyparsing==3.2.3

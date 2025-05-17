@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cross-Border Compliance Advisor API</title>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/swagger-ui-dist@5.0.0/swagger-ui.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .topbar {
+            background-color: #1E3A8A;
+            padding: 15px;
+            color: white;
+            text-align: center;
+        }
+        .topbar h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .api-description {
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <h1>Cross-Border Compliance Advisor API</h1>
+    </div>
+    
+    <div class="api-description">
+        <h2>API for Shariah Compliance Analysis and Regulatory Management</h2>
+        <p>This API provides endpoints for processing regulatory queries, analyzing Shariah compliance of regulations, and detecting compliance issues.</p>
+    </div>
+
+    <div id="swagger-ui"></div>
+
+    <script src="https://unpkg.com/swagger-ui-dist@5.0.0/swagger-ui-bundle.js"></script>
+    <script>
+        window.onload = function() {
+            const ui = SwaggerUIBundle({
+                url: window.location.origin + "/openapi.json",
+                dom_id: '#swagger-ui',
+                deepLinking: true,
+                presets: [
+                    SwaggerUIBundle.presets.apis,
+                    SwaggerUIBundle.SwaggerUIStandalonePreset
+                ],
+                layout: "BaseLayout",
+                supportedSubmitMethods: ["get", "post", "put", "delete", "patch"],
+                validatorUrl: null
+            });
+
+            window.ui = ui;
+        };
+    </script>
+</body>
+</html>
