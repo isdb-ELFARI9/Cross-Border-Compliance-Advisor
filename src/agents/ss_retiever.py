@@ -1,6 +1,6 @@
 """
-FAS Document Retriever Agent
-Purpose: Retrieves relevant sections from FAS documents based on queries.
+SS Document Retriever Agent
+Purpose: Retrieves relevant sections from SS documents based on queries.
 """
 
 from typing import List, Dict, Optional, Union

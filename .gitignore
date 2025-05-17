@@ -3,3 +3,10 @@ __pycache__/
 .env
 
 .pytest_cache/
+
+*.json
+*.txt
+*.pdf
+*.docx
+*.doc
+*.xls

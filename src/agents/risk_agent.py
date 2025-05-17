@@ -76,7 +76,7 @@ IMPORTANT: Your response must be valid JSON that can be parsed by Python's json.
             
             # Get analysis from OpenAI
             response = self.client.chat.completions.create(
-                model="gpt-4",  # or your preferred model
+                model="gpt-3.5-turbo",  # or your preferred model
                 messages=[
                     {"role": "system", "content": self.system_prompt},
                     {"role": "user", "content": user_message}
@@ -84,7 +84,6 @@ IMPORTANT: Your response must be valid JSON that can be parsed by Python's json.
                 temperature=0.2
             )
 
-            print("---------we good---------")
             
             # Parse the response
             analysis_data = response.choices[0].message.content

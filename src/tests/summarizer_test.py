@@ -3,13 +3,11 @@ Test script for the Retrieval Summarizer agent.
 """
 
 import sys
-from pathlib import Path
-import unittest
-from typing import Dict, List
+import os
+from typing import List
 
-# Add the project root directory to Python path
-project_root = str(Path(__file__).parent.parent.parent)
-sys.path.append(project_root)
+# Add the src directory to Python path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 
 from src.agents.fas_retriever import FASRetriever, FASDocument
 from src.agents.summarizer_fas import RetrievalSummarizer
