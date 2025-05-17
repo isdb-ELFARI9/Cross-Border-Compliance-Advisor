@@ -6,19 +6,19 @@ Purpose: Summarizes findings from FAS documents retrieved by FASRetriever.
 from typing import Dict, List
 from openai import OpenAI
 from ..core.config import settings
-from .fas_retriever import FASDocument
+from .ss_retiever import SSDocument
 
-class RetrievalSummarizer:
+class SSRetrievalSummarizer:
     def __init__(self):
         """Initialize the Retrieval Summarizer agent."""
         self.client = OpenAI(api_key=settings.OPENAI_API_KEY)
 
-    def _summarize_fas_findings(self, documents: List[FASDocument]) -> str:
+    def _summarize_SS_findings(self, documents: List[SSDocument]) -> str:
         """
-        Summarize findings from a list of FAS documents.
+        Summarize findings from a list of SS documents.
         
         Args:
-            documents: List of FASDocument objects from a specific FAS
+            documents: List of SSDocument objects from a specific SS
             
         Returns:
             Summary of the findings
@@ -39,7 +39,7 @@ class RetrievalSummarizer:
         print(f"--------------------------------Context-----: {context}--------------------------------")
 
         # Create enhanced prompt for summarization
-        prompt = f"""Please analyze the following FAS document excerpts and provide a comprehensive summary of the key findings. 
+        prompt = f"""Please analyze the following SS document excerpts and provide a comprehensive summary of the key findings. 
         Focus on the most relevant and important information that would be useful for understanding the accounting treatment.
 
         Document excerpts:
@@ -52,7 +52,7 @@ class RetrievalSummarizer:
         4. References specific sections and document types where relevant
         5. Maintains technical accuracy while being understandable
         6. Includes any relevant metadata that provides context
-        7. The summary should include the FAS number and title for each document.
+        7. The summary should include the SS number and title for each document.
         Summary:"""
 
         try:
@@ -60,7 +60,7 @@ class RetrievalSummarizer:
             response = self.client.chat.completions.create(
                 model="gpt-3.5-turbo",
                 messages=[
-                    {"role": "system", "content": "You are a financial accounting expert specializing in Islamic finance and FAS standards. Provide detailed, accurate summaries that maintain technical precision while being clear and accessible."},
+                    {"role": "system", "content": "You are a financial accounting expert specializing in Islamic finance and SS standards. Provide detailed, accurate summaries that maintain technical precision while being clear and accessible."},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.2,  # Lower temperature for more focused and consistent outputs
@@ -73,25 +73,25 @@ class RetrievalSummarizer:
             print(f"Error generating summary: {e}")
             return "Error generating summary."
 
-    def summarize_findings(self, results_by_namespace: Dict[str, List[FASDocument]]) -> Dict[str, str]:
+    def summarize_findings(self, results_by_namespace: Dict[str, List[SSDocument]]) -> Dict[str, str]:
         """
-        Summarize findings from all FAS documents across namespaces.
+        Summarize findings from all SS documents across namespaces.
         
         Args:
-            results_by_namespace: Dictionary mapping FAS namespaces to their retrieved documents
+            results_by_namespace: Dictionary mapping SS namespaces to their retrieved documents
             
         Returns:
-            Dictionary mapping FAS namespaces to their summaries
+            Dictionary mapping SS namespaces to their summaries
         """
         summaries = {}
         
         for namespace, documents in results_by_namespace.items():
-            # Get FAS number from namespace (e.g., "fas_32" -> "FAS 32")
-            fas_number = namespace.replace("fas_", "FAS ")
+            # Get SS number from namespace (e.g., "SS_32" -> "SS 32")
+            SS_number = namespace.replace("SS_", "SS ")
             
-            # Generate summary for this FAS
-            summary = self._summarize_fas_findings(documents)
-            summaries[fas_number] = summary
+            # Generate summary for this SS
+            summary = self._summarize_SS_findings(documents)
+            summaries[SS_number] = summary
             
         return summaries
 
@@ -100,16 +100,16 @@ class RetrievalSummarizer:
         Print the summaries in a formatted way.
         
         Args:
-            summaries: Dictionary of FAS summaries
+            summaries: Dictionary of SS summaries
         """
         if not summaries:
             print("No summaries available.")
             return
 
-        print("\n=== FAS Document Summaries ===\n")
+        print("\n=== SS Document Summaries ===\n")
         
-        for fas, summary in summaries.items():
-            print(f"📄 {fas}")
+        for SS, summary in summaries.items():
+            print(f"📄 {SS}")
             print("=" * 50)
             print(summary)
             print("\n" + "-" * 50 + "\n") 
