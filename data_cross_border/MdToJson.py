@@ -38,7 +38,7 @@ def markdown_to_json(markdown_text):
 
 # Example usage
 if __name__ == "__main__":
-    with open("input.md", "r", encoding="utf-8") as f:
+    with open("draft_contract.md", "r", encoding="utf-8") as f:
         md_text = f.read()
 
     json_data = markdown_to_json(md_text)
