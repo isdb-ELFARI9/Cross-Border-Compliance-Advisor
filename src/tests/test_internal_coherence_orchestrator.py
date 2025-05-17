@@ -23,7 +23,7 @@ def test_orchestrator():
     print("✓ Orchestrator initialized successfully\n")
     
     # Test contract path
-    contract_path = 'D:/Isdbi/CompliabceAdvisor/data_cross_border/draft_contract.md'
+    contract_path = './data_cross_border/draft_contract.md'
     
     # Test reading contract sections
     print("2. Reading contract sections...")
@@ -67,7 +67,7 @@ def test_orchestrator():
     
     # Test saving revision
     print("\n5. Saving revision to file...")
-    output_path = 'D:/Isdbi/CompliabceAdvisor/data_cross_border/contract_revision.json'
+    output_path = './data_cross_border/contract_revision.json'
     orchestrator.save_revision(revision, output_path)
     print(f"✓ Revision saved to: {output_path}")
     
