@@ -34,7 +34,7 @@ async def test_orchestrator():
         print(json.dumps(result, indent=2))
         
         # Save results
-        output_path = "D:/Isdbi/CompliabceAdvisor/data/orchestration_results.json"
+        output_path = "./data/orchestration_results.json"
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(result, f, indent=2, ensure_ascii=False)
         
