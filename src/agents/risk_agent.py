@@ -84,16 +84,38 @@ IMPORTANT: Your response must be valid JSON that can be parsed by Python's json.
                 temperature=0.2
             )
 
-            
             # Parse the response
-            analysis_data = response.choices[0].message.content
+            analysis_data = response.choices[0].message.content.strip()
+            
             # Try to parse as JSON first
             try:
                 json_data = json.loads(analysis_data)
                 return RiskAnalysisResult.parse_obj(json_data)
-            except json.JSONDecodeError:
-                # If not valid JSON, try to parse as string
-                return RiskAnalysisResult.parse_raw(analysis_data)
+            except json.JSONDecodeError as json_err:
+                print(f"JSON parsing error: {json_err}")
+                print(f"Raw response: {analysis_data}")
+                
+                # Try to fix common JSON formatting issues
+                try:
+                    # Replace single quotes with double quotes
+                    fixed_json = analysis_data.replace("'", '"')
+                    json_data = json.loads(fixed_json)
+                    return RiskAnalysisResult.parse_obj(json_data)
+                except:
+                    # If all parsing attempts fail, create a basic result
+                    return RiskAnalysisResult(
+                        risks=[RiskAssessment(
+                            risk_name="Parsing Error",
+                            risk_type="Operational",
+                            description="Failed to parse risk analysis response",
+                            shariah_implication="Unable to assess Shariah implications",
+                            mitigation_strategy="Review and fix the risk analysis response format",
+                            severity="High"
+                        )],
+                        summary="Error in risk analysis",
+                        fas_compliance_status="Unknown",
+                        recommendations=["Fix the risk analysis response format"]
+                    )
             
         except Exception as e:
             print(f"Error during risk analysis: {e}")

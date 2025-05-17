@@ -2,6 +2,13 @@
 Test suite for the RiskAnalysisAgent class.
 """
 
+import sys
+import os
+from typing import List
+
+# Add the src directory to Python path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+
 import pytest
 from unittest.mock import Mock, patch
 from src.agents.risk_agent import (
@@ -10,6 +17,8 @@ from src.agents.risk_agent import (
     RiskAnalysisResult,
     RiskAssessment
 )
+
+
 
 # Sample test data
 SAMPLE_PRODUCT_DESCRIPTION = """

@@ -44,12 +44,12 @@ class ComplianceScannerAgent:
         self.compliance_agent = ShariahComplianceAgent()
         self.client = OpenAI(api_key=settings.OPENAI_API_KEY)
         
-    def scan_draft(self, draft_regulation: Dict[str, List[Dict[str, str]]]) -> ComplianceScanResult:
+    def scan_draft(self, draft_regulation: List[Dict[str, List[Dict[str, str]]]]) -> ComplianceScanResult:
         """
         Scan a regulation draft for compliance issues.
         
         Args:
-            draft_regulation: Dictionary containing the regulation draft structure
+            draft_regulation: List of dictionaries containing the regulation draft structure
             
         Returns:
             ComplianceScanResult object containing all problematic fields
@@ -57,47 +57,49 @@ class ComplianceScannerAgent:
         try:
             problematic_fields = []
             
-            # Process External Regulation sections
-            for section in draft_regulation.get("External Regulation", []):
-                for section_name, content in section.items():
-                    # Check compliance for this section
-                    compliance_result = self._check_section_compliance(
-                        content,
-                        f"External Regulation > {section_name}"
-                    )
-                    
-                    # Add to problematic fields if not fully compliant
-                    if compliance_result.compliance_status != "compliant":
-                        problematic_fields.append(
-                            ProblematicField(
-                                location=f"External Regulation > {section_name}",
-                                text=content,
-                                compliance_status=compliance_result.compliance_status,
-                                justification=compliance_result.justification,
-                                referenced_clauses=compliance_result.referenced_clauses
-                            )
+            # Process each section in the draft regulation
+            for section in draft_regulation:
+                # Process External Regulation sections
+                for external_section in section.get("External Regulation", []):
+                    for section_name, content in external_section.items():
+                        # Check compliance for this section
+                        compliance_result = self._check_section_compliance(
+                            content,
+                            f"External Regulation > {section_name}"
                         )
-            
-            # Process Internal Rulebook sections
-            for section in draft_regulation.get("Internal Rulebook", []):
-                for section_name, content in section.items():
-                    # Check compliance for this section
-                    compliance_result = self._check_section_compliance(
-                        content,
-                        f"Internal Rulebook > {section_name}"
-                    )
-                    
-                    # Add to problematic fields if not fully compliant
-                    if compliance_result.compliance_status != "compliant":
-                        problematic_fields.append(
-                            ProblematicField(
-                                location=f"Internal Rulebook > {section_name}",
-                                text=content,
-                                compliance_status=compliance_result.compliance_status,
-                                justification=compliance_result.justification,
-                                referenced_clauses=compliance_result.referenced_clauses
+                        
+                        # Add to problematic fields if not fully compliant
+                        if compliance_result.compliance_status != "compliant":
+                            problematic_fields.append(
+                                ProblematicField(
+                                    location=f"External Regulation > {section_name}",
+                                    text=content,
+                                    compliance_status=compliance_result.compliance_status,
+                                    justification=compliance_result.justification,
+                                    referenced_clauses=compliance_result.referenced_clauses
+                                )
                             )
+                
+                # Process Internal Rulebook sections
+                for internal_section in section.get("Internal Rulebook", []):
+                    for section_name, content in internal_section.items():
+                        # Check compliance for this section
+                        compliance_result = self._check_section_compliance(
+                            content,
+                            f"Internal Rulebook > {section_name}"
                         )
+                        
+                        # Add to problematic fields if not fully compliant
+                        if compliance_result.compliance_status != "compliant":
+                            problematic_fields.append(
+                                ProblematicField(
+                                    location=f"Internal Rulebook > {section_name}",
+                                    text=content,
+                                    compliance_status=compliance_result.compliance_status,
+                                    justification=compliance_result.justification,
+                                    referenced_clauses=compliance_result.referenced_clauses
+                                )
+                            )
             
             return ComplianceScanResult(problematic_fields=problematic_fields)
             

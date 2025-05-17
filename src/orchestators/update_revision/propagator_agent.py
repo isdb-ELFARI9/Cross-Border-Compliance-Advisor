@@ -165,6 +165,9 @@ class PropagatorAgent:
                 lambda: self.risk_agent.analyze_risk(input_data)
             )
             
+            # Ensure analysis_result is a valid dictionary
+            analysis_result = result.dict() if hasattr(result, 'dict') else {}
+            
             # Determine severity based on risk analysis
             severity = "high" if any(r.severity.lower() == "high" for r in result.risks) else \
                       "medium" if any(r.severity.lower() == "medium" for r in result.risks) else "low"
@@ -172,55 +175,9 @@ class PropagatorAgent:
             return AgentReport(
                 agent_name="Risk Analysis Agent",
                 field_location=field.location,
-                analysis_result=result.dict(),
+                analysis_result=analysis_result,
                 severity=severity
             )
         except Exception as e:
             print(f"Error in risk analysis: {e}")
-            raise
-
-def main():
-    """Example usage of the PropagatorAgent."""
-    import asyncio
-    from compliance_scanner_agent import ComplianceScannerAgent
-    
-    async def run_example():
-        # Initialize agents
-        scanner = ComplianceScannerAgent()
-        propagator = PropagatorAgent()
-        
-        # Example problematic field
-        problematic_field = ProblematicField(
-            location="External Regulation > Liquidity Rules & Funding",
-            text="Banks must maintain adequate liquidity ratios.",
-            compliance_status="partially_compliant",
-            justification="Missing specific liquidity ratio requirements",
-            referenced_clauses=["SS-1.1", "SS-3.2"]
-        )
-        
-        # Propagate to specialized agents
-        result = await propagator.propagate([problematic_field])
-        
-        # Print results
-        print("\nPropagation Results:")
-        print("===================")
-        for location, reports in result.field_reports.items():
-            print(f"\nLocation: {location}")
-            for report in reports:
-                print(f"\nAgent: {report.agent_name}")
-                print(f"Analysis Result: {json.dumps(report.analysis_result, indent=2)}")
-                print(f"Severity: {report.severity}")
-                print("-" * 50)
-        
-        # Save results
-        output_path = "data/propagation_results.json"
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(result.dict(), f, indent=2, ensure_ascii=False)
-        
-        print(f"\nResults saved to {output_path}")
-
-    # Run the example
-    asyncio.run(run_example())
-
-if __name__ == "__main__":
-    main() 
+            raise 
