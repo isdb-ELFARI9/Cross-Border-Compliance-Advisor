@@ -11,7 +11,7 @@ import json
 
 class ConflictElement(BaseModel):
     """Model for individual conflict elements."""
-    bank_element: str = Field(description="The problematic term or practice in the rule")
+    bank_element: str = Field(description="The problematic term or practice in the rule or contract")
     fas_conflict: str = Field(description="How it contradicts AAOIFI FAS")
     ss_conflict: str = Field(description="How it contradicts Shariah standards")
 
@@ -137,4 +137,3 @@ Shariah Standards Summary:
             "SS_3_Istisna",
             "SS_4_Ijarah"
         ]
-

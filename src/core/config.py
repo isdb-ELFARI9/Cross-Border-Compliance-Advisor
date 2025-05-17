@@ -13,4 +13,3 @@ class Settings:
     # Add other settings if needed
 
 settings = Settings()
-
