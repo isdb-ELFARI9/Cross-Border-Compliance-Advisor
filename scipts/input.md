@@ -1,5 +1,4 @@
 ## External Regulation
-
 ### Capital Adequacy & Risk Management
 
 The Basel III regulatory framework is implemented in the EU primarily through the Capital Requirements Regulation (CRR) and the Capital Requirements Directive IV (CRD IV). These regulations establish minimum capital ratios that banks must maintain, including CET1, Tier 1, and Total Capital thresholds.
@@ -38,7 +37,7 @@ For example, structured products must clearly outline their risks, fees, and per
 
 This legal oversight aims to reduce mis-selling and enhance market discipline. Institutions found non-compliant may be required to withdraw products, compensate clients, or face enforcement actions.
 
-## 📁 Internal Rulebook
+##  Internal Rulebook
 
 ### Governance Policies
 
@@ -79,5 +78,3 @@ Internal ethics codes govern employee conduct, customer interaction, and interna
 Training programs are mandatory and updated regularly. Employees are expected to complete compliance certifications and refreshers to remain informed on evolving legal obligations.
 
 Furthermore, data protection procedures are fully aligned with GDPR, ensuring customer data privacy and responsible data usage. Supervisory reporting to the ECB (COREP/FINREP) and national authorities is scheduled, audited, and used as a key indicator of compliance health.
-
-**
