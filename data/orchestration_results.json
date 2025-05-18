@@ -1,0 +1,825 @@
+{
+  "final_review_report": {
+    "Ambiguity": [
+      {
+        "ambiguous": true,
+        "ambiguous_elements": [
+          {
+            "text": "Capital buffers are applied as additional layers of safety.",
+            "reason": "Ambiguous as it does not specify the nature or components of these capital buffers.",
+            "required_clarification": "Specify the specific components or types of capital buffers being referred to, such as the Capital Conservation Buffer, Countercyclical Buffer, or Systemic Risk Buffers, to ensure clarity and alignment with AAOIFI standards."
+          },
+          {
+            "text": "Internal capital adequacy assessment processes (ICAAP) are expected to be robust, well-documented, and subject to scrutiny.",
+            "reason": "Lacks specificity on what constitutes a 'robust' ICAAP or the criteria for scrutiny.",
+            "required_clarification": "Define the specific criteria or parameters that determine the robustness of an ICAAP and the nature of scrutiny it should undergo to comply with AAOIFI standards."
+          }
+        ]
+      },
+      {
+        "ambiguous": true,
+        "ambiguous_elements": [
+          {
+            "text": "high-quality liquid assets",
+            "reason": "The term 'high-quality liquid assets' is not defined, leading to ambiguity in determining what assets qualify.",
+            "required_clarification": "Specify the criteria or characteristics that define an asset as 'high-quality' and 'liquid' in the context of Shariah-compliant assets."
+          },
+          {
+            "text": "comprehensive liquidity risk management frameworks",
+            "reason": "The requirement for 'comprehensive liquidity risk management frameworks' lacks specificity on the components or criteria that make a framework comprehensive.",
+            "required_clarification": "Define the specific components or criteria that constitute a 'comprehensive liquidity risk management framework' in accordance with Shariah principles."
+          },
+          {
+            "text": "robust governance for liquidity decisions",
+            "reason": "The term 'robust governance' is vague and does not detail the specific governance requirements needed for liquidity decisions.",
+            "required_clarification": "Specify the governance structures, processes, and oversight mechanisms necessary to ensure Shariah compliance in liquidity decisions."
+          }
+        ]
+      },
+      {
+        "ambiguous": true,
+        "ambiguous_elements": [
+          {
+            "text": "Enhanced Due Diligence (EDD) is required for higher-risk customers, particularly Politically Exposed Persons (PEPs), cross-border relationships, or unusual transaction patterns.",
+            "reason": "The term 'higher-risk customers' is not clearly defined, leading to potential ambiguity in identifying which customers qualify for EDD.",
+            "required_clarification": "Specify specific criteria or indicators that classify customers as 'higher-risk' to ensure consistent application of EDD."
+          },
+          {
+            "text": "Institutions use AI and rule-based monitoring systems to flag suspicious transactions and submit Suspicious Activity Reports (SARs) to Financial Intelligence Units (FIUs).",
+            "reason": "The use of AI in monitoring is not explicitly addressed in AAOIFI Shariah Standards, which may raise concerns regarding the compliance of such technology with Islamic principles.",
+            "required_clarification": "Provide guidance on the permissibility and limitations of AI technology in AML monitoring within the framework of AAOIFI Shariah Standards."
+          }
+        ]
+      },
+      {
+        "ambiguous": true,
+        "ambiguous_elements": [
+          {
+            "text": "more accurate representation of financial performance and risk",
+            "reason": "Ambiguous in a Shariah context as 'accurate representation' may not align with Islamic finance principles.",
+            "required_clarification": "Specify how 'accuracy' is defined in relation to Shariah principles, ensuring compliance with AAOIFI standards."
+          },
+          {
+            "text": "transparency is enforced through mandatory Pillar 3 disclosures",
+            "reason": "Ambiguous as 'transparency' standards may differ between conventional and Islamic finance.",
+            "required_clarification": "Clarify how 'transparency' aligns with Shariah principles and AAOIFI standards to ensure compliance in Islamic finance contexts."
+          },
+          {
+            "text": "annual and quarterly reports must align with standardized templates",
+            "reason": "Lacks specificity regarding the content required in the standardized templates, which may be crucial for Shariah compliance.",
+            "required_clarification": "Specify the Shariah-compliant elements that must be included in the standardized templates to ensure adherence to AAOIFI standards."
+          }
+        ]
+      },
+      {
+        "ambiguous": true,
+        "ambiguous_elements": [
+          {
+            "text": "ensure compliance with consumer protection laws under MiFID II and PRIIPs",
+            "reason": "Ambiguous as it does not specify how compliance with Shariah principles, such as prohibition of riba and gharar, will be ensured alongside MiFID II and PRIIPs regulations.",
+            "required_clarification": "Clarification is needed on how the product governance process will integrate Shariah principles to ensure compliance with both MiFID II, PRIIPs, and Shariah requirements."
+          },
+          {
+            "text": "reduce mis-selling and enhance market discipline",
+            "reason": "Ambiguous as it does not specify how Shariah compliance will be monitored and enforced to prevent activities that are non-compliant with Islamic finance principles.",
+            "required_clarification": "Clarification is needed on the mechanisms in place to ensure Shariah compliance, prevent mis-selling from an Islamic finance perspective, and enhance market discipline in line with Shariah principles."
+          }
+        ]
+      },
+      {
+        "ambiguous": true,
+        "ambiguous_elements": [
+          {
+            "text": "ethical leadership",
+            "reason": "Ambiguous in a Shariah context as it lacks clarity on what ethical principles are being referred to, especially regarding Shariah compliance.",
+            "required_clarification": "Specify that ethical leadership includes adherence to Shariah principles and guidelines as outlined by the Shariah Supervisory Board."
+          },
+          {
+            "text": "risk appetite",
+            "reason": "Ambiguous in a Shariah context as it does not specify how risk appetite is determined in accordance with Shariah principles.",
+            "required_clarification": "Clarify that risk appetite is set within the boundaries of Shariah compliance and approved by the Shariah Supervisory Board."
+          },
+          {
+            "text": "checks and balances",
+            "reason": "Ambiguous in a Shariah context as it does not detail how these checks and balances ensure compliance with Shariah principles.",
+            "required_clarification": "Specify that the checks and balances mechanisms are designed to ensure adherence to Shariah rules and guidelines."
+          },
+          {
+            "text": "SM&CR (Senior Managers & Certification Regime) principles",
+            "reason": "Ambiguous in a Shariah context as it does not mention how these principles align with Shariah governance requirements.",
+            "required_clarification": "Explain how the SM&CR principles incorporate Shariah governance principles and ensure compliance with Shariah standards."
+          }
+        ]
+      },
+      {
+        "ambiguous": true,
+        "ambiguous_elements": [
+          {
+            "text": "all forms of financial and non-financial risk",
+            "reason": "Ambiguous as it does not specify what constitutes non-financial risk in the context of Islamic finance.",
+            "required_clarification": "Specify examples or categories of non-financial risks relevant to Islamic finance, such as Shariah compliance risk, reputation risk, or ethical risk."
+          },
+          {
+            "text": "collateral value",
+            "reason": "Ambiguous as it does not clarify the types of collateral permissible under Shariah principles.",
+            "required_clarification": "Specify that collateral should consist of permissible assets according to Shariah, such as tangible assets or commodities, and exclude impermissible items like alcohol or gambling-related assets."
+          },
+          {
+            "text": "scenario analysis",
+            "reason": "Ambiguous as it does not specify whether the scenarios considered comply with Shariah principles.",
+            "required_clarification": "Clarify that scenario analysis should include scenarios that do not involve prohibited activities or transactions according to Shariah, ensuring compliance with Islamic ethical standards."
+          },
+          {
+            "text": "digital risk assessment",
+            "reason": "Ambiguous as it does not detail how digital risk assessment aligns with Shariah principles.",
+            "required_clarification": "Specify that digital risk assessment should consider risks related to online transactions, data privacy, and cybersecurity in a manner consistent with Shariah guidelines, avoiding activities that contravene Islamic principles."
+          }
+        ]
+      },
+      {
+        "ambiguous": true,
+        "ambiguous_elements": [
+          {
+            "text": "pricing methods",
+            "reason": "Ambiguous in an Islamic finance context as it does not specify whether the pricing methods comply with Shariah principles.",
+            "required_clarification": "Clarification is needed to ensure that the pricing methods used are in line with Shariah principles, such as avoiding riba (interest) and gharar (uncertainty)."
+          },
+          {
+            "text": "risk disclosures necessary for client onboarding",
+            "reason": "Ambiguous as it does not specify the Islamic perspective on risk disclosures and whether they adhere to Shariah principles.",
+            "required_clarification": "Clarification is needed to ensure that the risk disclosures are compliant with Shariah principles, including transparency and avoidance of gharar."
+          },
+          {
+            "text": "stress testing methodologies used in pricing and valuation",
+            "reason": "Ambiguous as it does not clarify whether the stress testing methodologies align with Shariah principles.",
+            "required_clarification": "Specify that the stress testing methodologies used are Shariah-compliant, considering principles like transparency and avoiding excessive uncertainty."
+          }
+        ]
+      },
+      {
+        "ambiguous": true,
+        "ambiguous_elements": [
+          {
+            "text": "Interest income and fee revenues must comply with IFRS 15 and IFRS 9 guidelines",
+            "reason": "The rule does not specify the need for Shariah-compliant modes of financing or income recognition based on permissible contracts.",
+            "required_clarification": "Specify that interest income and fee revenues should be recognized in accordance with Shariah-compliant contracts and transactions as per AAOIFI Shariah Standards."
+          },
+          {
+            "text": "Dividend policies are reviewed quarterly and subject to capital adequacy constraints",
+            "reason": "The rule lacks clarity on whether dividends are distributed in compliance with Shariah principles.",
+            "required_clarification": "Clarify that dividend distribution should adhere to Shariah principles, ensuring compliance with AAOIFI Shariah Standards."
+          }
+        ]
+      },
+      {
+        "ambiguous": true,
+        "ambiguous_elements": [
+          {
+            "text": "Data protection procedures are fully aligned with GDPR",
+            "reason": "Ambiguous in a Shariah context as it does not specify compliance with AAOIFI Shariah Standards on data protection.",
+            "required_clarification": "Specify how data protection procedures align with AAOIFI Shariah Standards on data privacy and responsible data usage."
+          },
+          {
+            "text": "Supervisory reporting to the ECB (COREP/FINREP) and national authorities",
+            "reason": "Problematic as it does not mention adherence to specific Shariah compliance mechanisms or AAOIFI Shariah Standards for reporting.",
+            "required_clarification": "Clarify how supervisory reporting aligns with AAOIFI Shariah Standards and Shariah-compliant reporting requirements."
+          }
+        ]
+      }
+    ],
+    "Gap": [
+      {
+        "has_gaps": true,
+        "missing_elements": [
+          {
+            "requirement": "Incorporation of Shariah principles such as prohibition of riba and gharar",
+            "importance": "Necessary to ensure compliance with Islamic finance principles and AAOIFI Shariah Standards",
+            "recommendation": "Amend the rule to explicitly state adherence to Shariah principles, avoiding riba and gharar in all financial transactions"
+          },
+          {
+            "requirement": "Ensuring contracts and financial products comply with Islamic jurisprudence",
+            "importance": "Critical for Shariah compliance and alignment with AAOIFI Shariah Standards",
+            "recommendation": "Enhance the rule to specify that all contracts and financial products must adhere to Islamic jurisprudence and be approved by Shariah advisors"
+          }
+        ]
+      },
+      {
+        "has_gaps": true,
+        "missing_elements": [
+          {
+            "requirement": "Incorporation of AAOIFI Shariah Standards related to liquidity management",
+            "importance": "Necessary to ensure compliance with Shariah principles that prohibit riba (interest) and gharar (uncertainty) in financial transactions.",
+            "recommendation": "Explicitly reference AAOIFI Shariah Standards on liquidity management, permissible asset types for liquidity buffers, and treatment of liquidity risk under Shariah principles in the rule text."
+          },
+          {
+            "requirement": "Clarification on permissible asset types for liquidity buffers under Shariah principles",
+            "importance": "Critical to ensure that the assets held for liquidity purposes comply with Shariah guidelines on permissible investments.",
+            "recommendation": "Specify the types of Shariah-compliant assets that can be included in liquidity buffers to align with Islamic finance principles."
+          },
+          {
+            "requirement": "Guidance on the treatment of liquidity risk under Shariah principles",
+            "importance": "Essential to address how liquidity risk should be managed in accordance with Shariah requirements to avoid non-compliance.",
+            "recommendation": "Provide clear guidelines on managing liquidity risk in a Shariah-compliant manner within the liquidity risk management frameworks."
+          }
+        ]
+      },
+      {
+        "has_gaps": true,
+        "missing_elements": [
+          {
+            "requirement": "Incorporation of AAOIFI Shariah Standards on AML/CTF compliance",
+            "importance": "AAOIFI Shariah Standards provide specific guidelines and principles for AML/CTF compliance from an Islamic perspective, ensuring full alignment with Shariah principles.",
+            "recommendation": "Explicitly reference and incorporate relevant AAOIFI Shariah Standards on AML/CTF compliance into the rule text to ensure complete Shariah compliance."
+          },
+          {
+            "requirement": "Clarification on the Shariah permissibility of using AI in monitoring",
+            "importance": "Shariah compliance requires clarity on the permissibility of using AI in monitoring transactions to avoid potential conflicts with Islamic principles.",
+            "recommendation": "Provide a statement or justification on the Shariah permissibility of using AI in monitoring transactions within the AML/CTF framework."
+          }
+        ]
+      },
+      {
+        "has_gaps": true,
+        "missing_elements": [
+          {
+            "requirement": "Shariah compliance with AAOIFI standards",
+            "importance": "It is essential to ensure that financial products and transactions adhere to Shariah principles to avoid riba, gharar, and ensure compliance with permissible contracts.",
+            "recommendation": "Include explicit reference to Shariah compliance and adherence to AAOIFI standards in the rule text to ensure Shariah compliance."
+          }
+        ]
+      },
+      {
+        "has_gaps": true,
+        "missing_elements": [
+          {
+            "requirement": "Explicit prohibition of riba (interest) and gharar (excessive uncertainty)",
+            "importance": "Essential to ensure Shariah compliance and alignment with AAOIFI standards",
+            "recommendation": "Include clear statements prohibiting riba and gharar in the product terms and conditions to adhere to Islamic principles"
+          },
+          {
+            "requirement": "Ensuring product structure complies with Islamic contracts as per AAOIFI standards",
+            "importance": "Critical for Shariah compliance and validity of the financial product",
+            "recommendation": "Review and align the product structure with specific Islamic contracts such as Murabaha, Mudarabah, or Ijarah as prescribed by AAOIFI standards"
+          }
+        ]
+      },
+      {
+        "has_gaps": true,
+        "missing_elements": [
+          {
+            "requirement": "Incorporation of Shariah governance structures, such as the Shariah Supervisory Board (SSB) and Shariah compliance monitoring",
+            "importance": "Necessary to ensure compliance with Shariah principles in all banking activities and decision-making processes.",
+            "recommendation": "Amend the governance framework to explicitly include the role and authority of the Shariah Supervisory Board (SSB), establish Shariah compliance monitoring mechanisms, and ensure adherence to Shariah principles in decision-making."
+          }
+        ]
+      },
+      {
+        "has_gaps": true,
+        "missing_elements": [
+          {
+            "requirement": "Incorporation of Shariah-specific risk considerations",
+            "importance": "Necessary to ensure compliance with AAOIFI Shariah Standards by avoiding riba, gharar, and maysir in risk management practices.",
+            "recommendation": "Explicitly integrate Shariah principles in risk assessment, credit evaluation, collateral management, and overall risk mitigation strategies to align with Shariah Standards."
+          }
+        ]
+      },
+      {
+        "has_gaps": true,
+        "missing_elements": [
+          {
+            "requirement": "Explicit reference to compliance with Shariah principles such as prohibition of riba, gharar, and ensuring contracts comply with Islamic modes of finance",
+            "importance": "Essential for ensuring the products offered are Shariah-compliant and do not involve prohibited elements",
+            "recommendation": "Amend the rule to explicitly state adherence to Shariah principles, including prohibition of riba, gharar, and ensuring compliance with Islamic modes of finance in all product offerings"
+          }
+        ]
+      },
+      {
+        "has_gaps": true,
+        "missing_elements": [
+          {
+            "requirement": "Recognition of income and expenses based on Shariah-compliant contracts and transactions",
+            "importance": "Necessary to ensure compliance with AAOIFI Shariah Standards that prohibit riba and require Shariah-compliant financial transactions.",
+            "recommendation": "Amend the rule to specify that income and expenses should be recognized based on Shariah-compliant contracts and transactions in line with AAOIFI Shariah Standards."
+          },
+          {
+            "requirement": "Prohibition of interest (riba) income",
+            "importance": "Critical to adhere to Shariah principles that prohibit riba in all forms.",
+            "recommendation": "Include a clear statement prohibiting the recognition of interest income in any form to align with AAOIFI Shariah Standards."
+          },
+          {
+            "requirement": "Incorporation of Shariah supervision in financial policies",
+            "importance": "Essential for ensuring Shariah compliance and oversight in all financial activities.",
+            "recommendation": "Integrate a requirement for Shariah supervision in financial policies to ensure adherence to AAOIFI Shariah Standards."
+          }
+        ]
+      },
+      {
+        "has_gaps": true,
+        "missing_elements": [
+          {
+            "requirement": "Incorporation of specific Shariah compliance mechanisms related to internal ethics codes, data protection, and supervisory reporting",
+            "importance": "Necessary to ensure adherence to AAOIFI Shariah Standards and Islamic ethical principles in all aspects of banking operations",
+            "recommendation": "Amend the rule to explicitly mention Shariah-compliant governance elements in internal ethics codes, data protection procedures, and supervisory reporting processes. This can include referencing AAOIFI Shariah Standards and ensuring alignment with Islamic ethical principles."
+          }
+        ]
+      }
+    ],
+    "Conflict": [
+      {
+        "conflict": true,
+        "conflicting_elements": [
+          {
+            "bank_element": "Capital Requirements Regulation (CRR) and Capital Requirements Directive IV (CRD IV)",
+            "fas_conflict": "The focus on regulatory capital ratios and buffers may not align with AAOIFI FAS principles on recognition, measurement, and disclosure of Islamic financial instruments.",
+            "ss_conflict": "The absence of Shariah principles like prohibition of riba and gharar in the rule text contradicts AAOIFI Shariah Standards on Islamic finance compliance."
+          }
+        ],
+        "justification": "The rule's emphasis on conventional regulatory capital requirements lacks alignment with AAOIFI FAS principles on Islamic financial instruments. Additionally, the absence of Shariah principles in the rule text contradicts AAOIFI Shariah Standards on Islamic finance compliance.",
+        "references": [
+          "FAS 1-7",
+          "Shariah Standard No. 1"
+        ]
+      },
+      {
+        "conflict": true,
+        "conflicting_elements": [
+          {
+            "bank_element": "High-quality liquid assets",
+            "fas_conflict": "The FAS may not address the specific requirements or criteria for defining high-quality liquid assets in line with AAOIFI standards.",
+            "ss_conflict": "The rule does not specify Shariah-compliant permissible assets for liquidity buffers, potentially leading to non-compliance with Shariah principles."
+          },
+          {
+            "bank_element": "Contingency funding plans",
+            "fas_conflict": "The FAS may not provide guidance on the specific structure or components required for contingency funding plans as per AAOIFI standards.",
+            "ss_conflict": "Shariah standards require that contingency plans avoid interest-based mechanisms, which may not be explicitly addressed in the rule."
+          }
+        ],
+        "justification": "While the rule adheres to conventional liquidity risk management practices like LCR and NSFR, it lacks explicit guidance on Shariah-compliant liquidity requirements and permissible assets. This omission can lead to potential conflicts with AAOIFI Shariah Standards that emphasize avoiding interest, uncertainty, and impermissible assets in liquidity management.",
+        "references": [
+          "AAOIFI Shariah Standard No. 8"
+        ]
+      },
+      {
+        "conflict": true,
+        "conflicting_elements": [
+          {
+            "bank_element": "Use of AI and rule-based monitoring systems",
+            "fas_conflict": "The use of AI and rule-based monitoring systems may not align with specific FAS requirements on manual review and verification of transactions.",
+            "ss_conflict": "There is no direct reference to AAOIFI Shariah Standards related to the use of AI in monitoring, which may raise concerns about potential conflicts with Shariah principles of human judgment and accountability."
+          }
+        ],
+        "justification": "While the AML and CTF measures in the rule support the Shariah principle of preventing harm, the use of AI and rule-based monitoring systems may conflict with the requirement for human judgment and accountability in both AAOIFI FAS and Shariah Standards.",
+        "references": [
+          "FAS 28 para 5",
+          "Shariah principles of human judgment and accountability"
+        ]
+      },
+      {
+        "conflict": true,
+        "conflicting_elements": [
+          {
+            "bank_element": "Expected credit loss approach under IFRS 9",
+            "fas_conflict": "The focus on expected credit losses may not align with AAOIFI FAS principles, which prioritize prudence and conservatism in recognizing provisions for credit losses.",
+            "ss_conflict": "The rule does not mention adherence to AAOIFI Shariah Standards, which require compliance with Shariah principles such as prohibition of riba and ensuring transactions are based on permissible contracts."
+          }
+        ],
+        "justification": "The rule's emphasis on the expected credit loss approach may conflict with AAOIFI FAS principles of prudence, while the lack of reference to Shariah compliance contradicts AAOIFI Shariah Standards.",
+        "references": [
+          "FAS 28 para 5",
+          "Shariah Standard No. 8"
+        ]
+      },
+      {
+        "conflict": true,
+        "conflicting_elements": [
+          {
+            "bank_element": "Interest-bearing products",
+            "fas_conflict": "The rule does not address specific FAS requirements related to financial reporting and disclosure for interest-based products.",
+            "ss_conflict": "The rule does not ensure compliance with Shariah principles such as prohibition of riba (interest) and gharar (excessive uncertainty) as outlined in AAOIFI Shariah Standards."
+          }
+        ],
+        "justification": "The rule lacks explicit consideration of Shariah principles such as prohibition of riba and gharar, which are fundamental in Islamic finance. Without adherence to these principles, the bank's product governance may not align with Shariah-compliant practices.",
+        "references": [
+          "Shariah Standard No. 8"
+        ]
+      },
+      {
+        "conflict": true,
+        "conflicting_elements": [
+          {
+            "bank_element": "Governance framework without explicit Shariah oversight mechanisms",
+            "fas_conflict": "",
+            "ss_conflict": "The absence of Shariah governance structures like the Shariah Supervisory Board and Shariah compliance monitoring contradicts AAOIFI Shariah Standards."
+          }
+        ],
+        "justification": "The rule lacks explicit incorporation of Shariah oversight mechanisms, which are essential per AAOIFI Shariah Standards to ensure compliance with Shariah principles in banking operations.",
+        "references": [
+          "Shariah Standard No. 8"
+        ]
+      },
+      {
+        "conflict": true,
+        "conflicting_elements": [
+          {
+            "bank_element": "Credit risk procedures evaluate borrower reliability and collateral value.",
+            "fas_conflict": "",
+            "ss_conflict": "The absence of Shariah-specific risk considerations in credit evaluation and collateral management."
+          },
+          {
+            "bank_element": "ECB-mandated stress tests simulate extreme but plausible situations.",
+            "fas_conflict": "",
+            "ss_conflict": "The lack of Shariah compliance in stress testing, which may involve non-compliant elements."
+          }
+        ],
+        "justification": "While the bank's risk management framework is comprehensive, it lacks explicit integration of Shariah risk principles, such as avoiding riba, gharar, and maysir. This omission renders the framework only partially compliant with AAOIFI Shariah Standards.",
+        "references": [
+          "Shariah Standard No. 8"
+        ]
+      },
+      {
+        "conflict": true,
+        "conflicting_elements": [
+          {
+            "bank_element": "Mortgage products",
+            "fas_conflict": "The detailed manual may not adequately address the specific FAS requirements for accounting treatment, recognition, measurement, and disclosure of mortgage products.",
+            "ss_conflict": "The rule lacks explicit reference to Shariah principles such as prohibition of riba and gharar in mortgage products, as well as ensuring compliance with Islamic modes of finance."
+          },
+          {
+            "bank_element": "Derivative products",
+            "fas_conflict": "The manual may not cover the FAS requirements for accounting treatment, recognition, measurement, and disclosure specific to derivative products.",
+            "ss_conflict": "The rule does not mention adherence to Shariah principles like avoiding gharar and ensuring compliance with Islamic finance principles in derivative products."
+          }
+        ],
+        "justification": "The rule's comprehensive manuals lack specific guidance on FAS requirements for accounting treatment and fail to explicitly address key Shariah principles related to mortgage and derivative products. Without aligning with both FAS and Shariah Standards, the bank's offerings may not be fully compliant.",
+        "references": [
+          "FAS 28 para 5",
+          "Shariah Standard No. 8"
+        ]
+      },
+      {
+        "conflict": true,
+        "conflicting_elements": [
+          {
+            "bank_element": "Recognition of interest income and fee revenues based on IFRS 15 and IFRS 9 guidelines",
+            "fas_conflict": "Contradicts AAOIFI FAS as it does not consider Shariah-compliant income recognition principles",
+            "ss_conflict": "Contradicts Shariah standards as it allows recognition of interest income, which is prohibited"
+          }
+        ],
+        "justification": "The bank's rule conflicts with AAOIFI Shariah Standards by permitting the recognition of interest income and fee revenues based on conventional accounting standards without considering Shariah-compliant principles. Shariah-compliant income recognition is essential to ensure compliance with Islamic finance principles and avoid interest-based transactions.",
+        "references": [
+          "Shariah Standard No. 8"
+        ]
+      },
+      {
+        "conflict": true,
+        "conflicting_elements": [
+          {
+            "bank_element": "GDPR compliance",
+            "fas_conflict": "The FAS do not specifically address GDPR compliance as it is a data protection regulation outside the scope of financial accounting standards.",
+            "ss_conflict": "The Shariah Standards do not explicitly endorse GDPR compliance as it is a secular regulation. Shariah compliance requires adherence to Islamic principles of data protection and privacy, which may differ from GDPR requirements."
+          },
+          {
+            "bank_element": "Supervisory reporting to ECB and national authorities",
+            "fas_conflict": "The FAS do not dictate specific supervisory reporting requirements to non-financial regulatory bodies like the ECB.",
+            "ss_conflict": "Shariah compliance necessitates reporting to Shariah-compliant authorities or bodies recognized by AAOIFI Shariah Standards, which may differ from reporting to non-Islamic entities like the ECB."
+          }
+        ],
+        "justification": "The conflicts arise from the bank's reference to GDPR compliance, which is outside the scope of FAS and Shariah Standards, and the reporting to non-Shariah authorities like the ECB, which may not align with Shariah governance principles.",
+        "references": [
+          "N/A"
+        ]
+      }
+    ],
+    "Risk": [
+      {
+        "risks": [
+          {
+            "risk_name": "Parsing Error",
+            "risk_type": "Operational",
+            "description": "Failed to parse risk analysis response",
+            "shariah_implication": "Unable to assess Shariah implications",
+            "mitigation_strategy": "Review and fix the risk analysis response format",
+            "severity": "High",
+            "fas_reference": null
+          }
+        ],
+        "summary": "Error in risk analysis",
+        "fas_compliance_status": "Unknown",
+        "recommendations": [
+          "Fix the risk analysis response format"
+        ]
+      },
+      {
+        "risks": [
+          {
+            "risk_name": "Parsing Error",
+            "risk_type": "Operational",
+            "description": "Failed to parse risk analysis response",
+            "shariah_implication": "Unable to assess Shariah implications",
+            "mitigation_strategy": "Review and fix the risk analysis response format",
+            "severity": "High",
+            "fas_reference": null
+          }
+        ],
+        "summary": "Error in risk analysis",
+        "fas_compliance_status": "Unknown",
+        "recommendations": [
+          "Fix the risk analysis response format"
+        ]
+      },
+      {
+        "risks": [
+          {
+            "risk_name": "Inadequate Customer Due Diligence (CDD)",
+            "risk_type": "Shariah",
+            "description": "Failure to conduct thorough CDD may lead to onboarding high-risk customers without adequate scrutiny.",
+            "shariah_implication": "Inadequate CDD can result in dealing with clients involved in haram activities or transactions, leading to potential non-compliance with Shariah principles.",
+            "mitigation_strategy": "Ensure robust CDD processes are in place, including verifying the source of funds and assessing the nature of the business relationship.",
+            "severity": "High",
+            "fas_reference": "None"
+          },
+          {
+            "risk_name": "Lack of Enhanced Due Diligence (EDD) for High-Risk Customers",
+            "risk_type": "Shariah",
+            "description": "Failing to apply EDD for high-risk customers, such as PEPs, can increase the risk of facilitating illicit financial activities.",
+            "shariah_implication": "Not conducting EDD on high-risk customers may lead to involvement in transactions that are not Shariah-compliant.",
+            "mitigation_strategy": "Implement specific EDD procedures for high-risk customers, ensuring a deeper understanding of their transactions and sources of wealth.",
+            "severity": "High",
+            "fas_reference": "None"
+          },
+          {
+            "risk_name": "Insufficient Transaction Monitoring",
+            "risk_type": "Operational",
+            "description": "Weak transaction monitoring systems may fail to detect suspicious activities, exposing the institution to regulatory breaches.",
+            "shariah_implication": "Inadequate monitoring can result in facilitating transactions involving haram activities, contradicting Shariah principles.",
+            "mitigation_strategy": "Enhance transaction monitoring systems using AI and rule-based approaches to effectively identify and report suspicious transactions.",
+            "severity": "Medium",
+            "fas_reference": "None"
+          },
+          {
+            "risk_name": "Failure to Submit Suspicious Activity Reports (SARs)",
+            "risk_type": "Shariah",
+            "description": "Not submitting SARs for detected suspicious activities can lead to regulatory non-compliance and potential involvement in unlawful transactions.",
+            "shariah_implication": "Failing to report suspicious activities may result in facilitating transactions that are against Shariah principles.",
+            "mitigation_strategy": "Establish clear procedures for identifying and reporting suspicious activities promptly to the relevant authorities.",
+            "severity": "High",
+            "fas_reference": "None"
+          },
+          {
+            "risk_name": "Lack of Staff Training on AML/CTF",
+            "risk_type": "Reputational",
+            "description": "Insufficient training for staff on AML/CTF measures can result in errors or oversights in compliance, leading to reputational damage.",
+            "shariah_implication": "Inadequate training may result in unintentional involvement in transactions that are not Shariah-compliant, impacting the institution's reputation.",
+            "mitigation_strategy": "Provide comprehensive and regular training to staff on AML/CTF requirements and updates.",
+            "severity": "Medium",
+            "fas_reference": "None"
+          }
+        ],
+        "summary": "The AML/CTF measures outlined in the product description align with the general Shariah principles of preventing harm and ethical financial dealings. However, there are significant Shariah and operational risks associated with inadequate CDD, EDD, transaction monitoring, SAR reporting, and staff training.",
+        "fas_compliance_status": "Partially Compliant",
+        "recommendations": [
+          "Develop specific AAOIFI Shariah Standards on AML/CTF to ensure full compliance with Islamic finance principles.",
+          "Enhance CDD and EDD processes to align with Shariah requirements and mitigate high-risk customer onboarding.",
+          "Strengthen transaction monitoring systems to effectively detect and report suspicious activities in line with Shariah principles.",
+          "Implement robust procedures for timely submission of SARs to regulatory authorities.",
+          "Provide regular and comprehensive training to staff on AML/CTF measures and Shariah compliance."
+        ]
+      },
+      {
+        "risks": [
+          {
+            "risk_name": "Parsing Error",
+            "risk_type": "Operational",
+            "description": "Failed to parse risk analysis response",
+            "shariah_implication": "Unable to assess Shariah implications",
+            "mitigation_strategy": "Review and fix the risk analysis response format",
+            "severity": "High",
+            "fas_reference": null
+          }
+        ],
+        "summary": "Error in risk analysis",
+        "fas_compliance_status": "Unknown",
+        "recommendations": [
+          "Fix the risk analysis response format"
+        ]
+      },
+      {
+        "risks": [
+          {
+            "risk_name": "Parsing Error",
+            "risk_type": "Operational",
+            "description": "Failed to parse risk analysis response",
+            "shariah_implication": "Unable to assess Shariah implications",
+            "mitigation_strategy": "Review and fix the risk analysis response format",
+            "severity": "High",
+            "fas_reference": null
+          }
+        ],
+        "summary": "Error in risk analysis",
+        "fas_compliance_status": "Unknown",
+        "recommendations": [
+          "Fix the risk analysis response format"
+        ]
+      },
+      {
+        "risks": [
+          {
+            "risk_name": "Lack of Shariah Compliance Oversight",
+            "risk_type": "Shariah",
+            "description": "Failure to establish a Shariah Supervisory Board or integrate Shariah compliance monitoring mechanisms within governance frameworks.",
+            "shariah_implication": "This risk could lead to non-compliance with Shariah principles in banking operations, potentially resulting in haram income generation.",
+            "mitigation_strategy": "Establish a Shariah Supervisory Board and integrate Shariah compliance monitoring mechanisms within governance frameworks as mandated by AAOIFI Shariah Standards.",
+            "severity": "High",
+            "fas_reference": "AAOIFI Shariah Standard No. 10 - Governance for Islamic Financial Institutions"
+          },
+          {
+            "risk_name": "Ethical Leadership Misalignment",
+            "risk_type": "Shariah",
+            "description": "Failure to align ethical leadership with Shariah rules and guidance, focusing solely on conventional regulatory frameworks.",
+            "shariah_implication": "This risk could lead to decisions and practices that are not in line with Shariah principles, potentially causing reputational damage and loss of trust.",
+            "mitigation_strategy": "Ensure that ethical leadership in Islamic banks includes adherence to Shariah rules and guidance, not just conventional regulatory frameworks.",
+            "severity": "Medium",
+            "fas_reference": "AAOIFI Shariah Standard No. 1 - Ethics in Islamic Financial Institutions"
+          },
+          {
+            "risk_name": "Operational Risk in Shariah Compliance Monitoring",
+            "risk_type": "Operational",
+            "description": "Inadequate systems or processes for Shariah compliance monitoring and reporting within governance frameworks.",
+            "shariah_implication": "This risk could result in undetected non-compliance with Shariah principles, leading to potential financial and reputational losses.",
+            "mitigation_strategy": "Implement robust systems and processes for Shariah compliance monitoring and reporting as a core function of governance frameworks.",
+            "severity": "High",
+            "fas_reference": "AAOIFI Shariah Standard No. 10 - Governance for Islamic Financial Institutions"
+          },
+          {
+            "risk_name": "Reputational Risk due to Non-Compliance",
+            "risk_type": "Reputational",
+            "description": "Non-compliance with Shariah principles leading to reputational damage and loss of trust among stakeholders.",
+            "shariah_implication": "This risk could impact the credibility and image of the bank in the Islamic finance industry and among the wider community.",
+            "mitigation_strategy": "Ensure strict adherence to Shariah principles in all operations to maintain a positive reputation and trust.",
+            "severity": "High",
+            "fas_reference": "AAOIFI Shariah Standard No. 10 - Governance for Islamic Financial Institutions"
+          }
+        ],
+        "summary": "The proposed governance framework carries significant Shariah-specific risks, particularly related to compliance oversight, ethical leadership alignment, operational monitoring, and reputational damage. While the framework aligns with conventional governance principles, it requires enhancement to fully integrate Shariah compliance mechanisms.",
+        "fas_compliance_status": "Partially Compliant",
+        "recommendations": [
+          "Establish a Shariah Supervisory Board to oversee compliance with Shariah principles.",
+          "Ensure ethical leadership aligns with Shariah rules and guidance.",
+          "Enhance operational systems for Shariah compliance monitoring and reporting.",
+          "Prioritize adherence to Shariah principles to mitigate reputational risks."
+        ]
+      },
+      {
+        "risks": [
+          {
+            "risk_name": "Parsing Error",
+            "risk_type": "Operational",
+            "description": "Failed to parse risk analysis response",
+            "shariah_implication": "Unable to assess Shariah implications",
+            "mitigation_strategy": "Review and fix the risk analysis response format",
+            "severity": "High",
+            "fas_reference": null
+          }
+        ],
+        "summary": "Error in risk analysis",
+        "fas_compliance_status": "Unknown",
+        "recommendations": [
+          "Fix the risk analysis response format"
+        ]
+      },
+      {
+        "risks": [
+          {
+            "risk_name": "Non-Compliance with Shariah Principles",
+            "risk_type": "Shariah",
+            "description": "The product manuals may not accurately reflect the Shariah compliance requirements, leading to potential non-compliance with Islamic finance principles.",
+            "shariah_implication": "Non-compliance with Shariah principles such as riba and gharar can render the entire product impermissible from a religious perspective.",
+            "mitigation_strategy": "Ensure that the Shariah Supervisory Board reviews and approves the content of all product manuals to confirm compliance with Islamic finance principles.",
+            "severity": "High",
+            "fas_reference": "AAOIFI FAS 21: Financial Papers and Documents"
+          },
+          {
+            "risk_name": "Inadequate Risk Disclosures",
+            "risk_type": "Shariah",
+            "description": "The manuals may lack comprehensive risk disclosures related to Shariah compliance, potentially exposing the bank to non-compliance risks.",
+            "shariah_implication": "Incomplete risk disclosures can lead to clients unknowingly engaging in impermissible transactions, violating Shariah principles.",
+            "mitigation_strategy": "Ensure that all risk disclosures explicitly highlight the Shariah compliance aspects of the products, including any potential risks of non-compliance.",
+            "severity": "Medium",
+            "fas_reference": "AAOIFI FAS 8: Disclosure of Bases for Determination of Profit or Loss in Islamic Financial Institutions"
+          },
+          {
+            "risk_name": "Operational Inconsistencies",
+            "risk_type": "Operational",
+            "description": "Inconsistencies in the interpretation and implementation of product manuals across front-line staff may lead to operational errors and non-compliance issues.",
+            "shariah_implication": "Operational inconsistencies can result in inadvertent violations of Shariah principles due to misinterpretation or misapplication of product guidelines.",
+            "mitigation_strategy": "Provide regular training and updates to front-line staff on Shariah compliance requirements and ensure clear communication of product guidelines.",
+            "severity": "Medium",
+            "fas_reference": "AAOIFI FAS 2: Accounting for Ijarah Transactions"
+          },
+          {
+            "risk_name": "Reputational Risk",
+            "risk_type": "Reputational",
+            "description": "Non-compliance with Shariah principles or inadequate risk disclosures can damage the bank's reputation among its Islamic finance clientele.",
+            "shariah_implication": "Reputational risk arises from any perception of non-compliance with Shariah principles, potentially leading to loss of trust and credibility.",
+            "mitigation_strategy": "Prioritize Shariah compliance in all product offerings and ensure transparent communication with clients regarding the bank's adherence to Islamic finance principles.",
+            "severity": "High",
+            "fas_reference": "AAOIFI FAS 3: Accounting for Sukuk"
+          }
+        ],
+        "summary": "The bank's product manuals pose significant Shariah, operational, and reputational risks due to potential non-compliance with Islamic finance principles and inadequate risk disclosures. Operational inconsistencies may further exacerbate these risks.",
+        "fas_compliance_status": "Partially Compliant",
+        "recommendations": [
+          "Enhance the review process by the Shariah Supervisory Board to ensure all product manuals are fully compliant with Shariah principles.",
+          "Strengthen risk disclosures in the manuals to provide clear information on Shariah compliance requirements and associated risks.",
+          "Implement comprehensive training programs for front-line staff to ensure consistent interpretation and application of product guidelines."
+        ]
+      },
+      {
+        "risks": [
+          {
+            "risk_name": "Interest (Riba) Income Recognition Risk",
+            "risk_type": "Shariah",
+            "description": "Recognition of interest income in violation of Shariah principles",
+            "shariah_implication": "Riba is strictly prohibited in Islamic finance as it involves unjust enrichment through predetermined, fixed interest. Recognizing such income would render the financial transactions non-compliant with Shariah.",
+            "mitigation_strategy": "Ensure income recognition is based on Shariah-compliant contracts such as profit-sharing agreements (Mudarabah) or trade-based contracts (Murabaha). Implement robust monitoring and review mechanisms to detect and rectify any instances of interest income recognition.",
+            "severity": "High",
+            "fas_reference": "AAOIFI FAS 2: Sale and Purchase Transactions"
+          },
+          {
+            "risk_name": "Expense Misclassification Risk",
+            "risk_type": "Operational",
+            "description": "Misclassification of expenses leading to non-compliance with Shariah principles",
+            "shariah_implication": "Misclassifying expenses may result in non-permissible expenditures being treated as legitimate costs, potentially leading to unethical or non-compliant financial practices.",
+            "mitigation_strategy": "Implement a robust expense management system that clearly categorizes expenses according to Shariah principles. Conduct regular audits and reviews to ensure expenses are accurately classified and comply with Islamic finance guidelines.",
+            "severity": "Medium",
+            "fas_reference": "AAOIFI FAS 4: Determination of Zakah on Shares and Other Securities"
+          },
+          {
+            "risk_name": "Dividend Policy Non-Compliance Risk",
+            "risk_type": "Reputational",
+            "description": "Non-compliance with Shariah standards in dividend policy",
+            "shariah_implication": "Dividend distribution must adhere to Shariah principles to ensure that shareholders receive returns from permissible sources. Non-compliance can lead to reputational damage and loss of trust among stakeholders.",
+            "mitigation_strategy": "Regularly review and align dividend policies with Shariah principles. Ensure dividends are sourced from halal profits and comply with Islamic finance guidelines. Conduct thorough audits to verify compliance and seek guidance from Shariah advisors.",
+            "severity": "High",
+            "fas_reference": "AAOIFI FAS 6: Investment Accounts"
+          }
+        ],
+        "summary": "The financial policies outlined pose significant Shariah, operational, and reputational risks due to potential non-compliance with Islamic finance principles. While the policies aim to support long-term profitability and stability, overlooking Shariah guidelines can lead to severe consequences.",
+        "fas_compliance_status": "Partially Compliant",
+        "recommendations": [
+          "Conduct a comprehensive review of financial policies to ensure alignment with Shariah principles as per AAOIFI FAS standards.",
+          "Provide regular training to staff on Shariah-compliant financial practices and the implications of non-compliance.",
+          "Establish a Shariah compliance committee to oversee and monitor adherence to Islamic finance guidelines in all financial operations."
+        ]
+      },
+      {
+        "risks": [
+          {
+            "risk_name": "Lack of AAOIFI Shariah Standards Compliance",
+            "risk_type": "Shariah",
+            "description": "The internal ethics codes and data protection procedures may not fully align with AAOIFI Shariah Standards, leading to potential non-compliance.",
+            "shariah_implication": "Non-compliance with AAOIFI Shariah Standards can result in engaging in prohibited activities or structures, which may render the transactions invalid from a Shariah perspective.",
+            "mitigation_strategy": "Conduct a thorough review of the internal ethics codes and data protection procedures to ensure alignment with AAOIFI Shariah Standards. Engage with Shariah advisors to provide guidance on necessary adjustments.",
+            "severity": "High",
+            "fas_reference": "AAOIFI FAS 1: General Presentation and Disclosure in Financial Statements"
+          },
+          {
+            "risk_name": "Inadequate Shariah Compliance Training",
+            "risk_type": "Operational",
+            "description": "Employees may not receive sufficient training on Shariah compliance requirements, leading to inadvertent non-compliance.",
+            "shariah_implication": "Lack of adequate training can result in unintentional violations of Shariah principles, which may lead to financial and reputational risks.",
+            "mitigation_strategy": "Enhance Shariah compliance training programs to ensure employees have a clear understanding of Shariah principles and their implications on business operations.",
+            "severity": "Medium",
+            "fas_reference": "AAOIFI FAS 2: Accounting for Ijarah and Ijarah Muntahia Bittamleek"
+          },
+          {
+            "risk_name": "Data Privacy Violations",
+            "risk_type": "Financial",
+            "description": "Failure to comply with GDPR data protection regulations may result in fines and legal actions, impacting the financial stability of the institution.",
+            "shariah_implication": "Data privacy violations can lead to breaching the trust of customers and stakeholders, which goes against the principles of transparency and fairness in Islamic finance.",
+            "mitigation_strategy": "Regularly review and update data protection procedures to ensure compliance with GDPR requirements. Conduct internal audits to identify and rectify any potential data privacy violations.",
+            "severity": "High",
+            "fas_reference": "AAOIFI FAS 4: Murabaha"
+          },
+          {
+            "risk_name": "Reputational Damage",
+            "risk_type": "Reputational",
+            "description": "Non-compliance with ethical standards and data protection regulations can tarnish the reputation of the bank, leading to loss of customer trust and business opportunities.",
+            "shariah_implication": "Reputational damage can have long-lasting effects on the institution's credibility and may deter potential customers who prioritize ethical and Shariah-compliant practices.",
+            "mitigation_strategy": "Implement robust monitoring mechanisms to ensure adherence to ethical codes and data protection regulations. Transparently communicate the institution's commitment to Shariah compliance and ethical conduct.",
+            "severity": "High",
+            "fas_reference": "AAOIFI FAS 6: Investment Accounts"
+          }
+        ],
+        "summary": "The proposed regulations have significant Shariah, operational, financial, and reputational risks due to potential non-compliance with AAOIFI Shariah Standards and data protection regulations.",
+        "fas_compliance_status": "Partially Compliant",
+        "recommendations": [
+          "Conduct a comprehensive review of internal ethics codes and data protection procedures to ensure alignment with AAOIFI Shariah Standards.",
+          "Enhance Shariah compliance training programs for employees to mitigate operational risks.",
+          "Regularly update data protection procedures to comply with GDPR requirements and prevent financial penalties.",
+          "Implement monitoring mechanisms to safeguard the institution's reputation and communicate commitment to Shariah compliance."
+        ]
+      }
+    ]
+  }
+}

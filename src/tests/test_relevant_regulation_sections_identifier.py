@@ -9,7 +9,7 @@ from pathlib import Path
 # Add the src directory to Python path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 
-from src.agents.relevant_regulation_sections_identifier import (
+from src.orchestators.qa_transform_aaoifi.relevant_regulation_sections_identifier import (
     RelevantRegulationSectionsIdentifier,
     QueryInput
 )

@@ -1,0 +1,134 @@
+[
+  {
+    "External Regulation": [
+      {
+        "Capital Adequacy & Risk Management": {
+          "original_text": "The Basel III regulatory framework is implemented in the EU primarily through the Capital Requirements Regulation (CRR) and the Capital Requirements Directive IV (CRD IV). These regulations establish minimum capital ratios that banks must maintain, including CET1, Tier 1, and Total Capital thresholds. Capital buffers are applied as additional layers of safety. The Capital Conservation Buffer ensures that banks build up capital during non-stress periods, while the Countercyclical Buffer adjusts to economic cycles. Systemic Risk Buffers are applied to institutions whose failure could disrupt the broader economy. Moreover, supervisory authorities evaluate capital adequacy through the SREP (Supervisory Review and Evaluation Process), tailoring requirements based on individual banks’ risk profiles. Internal capital adequacy assessment processes (ICAAP) are expected to be robust, well-documented, and subject to scrutiny.",
+          "compliance_status": "partially_compliant",
+          "compliance_justification": "The Basel III framework as described focuses on regulatory capital adequacy and risk management, which align with the general principles of prudent financial management. However, the provided summary does not include any specific AAOIFI Shariah Standards or clauses related to capital adequacy, risk buffers, or supervisory review processes. Without explicit reference to Shariah principles such as prohibition of riba (interest), gharar (excessive uncertainty), or ensuring that capital components are free from non-Shariah compliant elements, it is not possible to fully confirm compliance. Therefore, while the rule aligns with sound financial prudence, it lacks explicit Shariah compliance elements and cannot be deemed fully compliant.",
+          "referenced_clauses": [
+            "No specific AAOIFI Shariah Standards or clauses were provided in the summary to assess capital adequacy or regulatory frameworks in relation to Shariah compliance."
+          ]
+        }
+      },
+      {
+        "Liquidity Rules & Funding": {
+          "original_text": "Liquidity requirements are essential to ensure banks can meet their financial obligations during stress periods. The Liquidity Coverage Ratio (LCR) mandates that institutions maintain enough high-quality liquid assets to survive a 30-day stress scenario. The Net Stable Funding Ratio (NSFR), on the other hand, promotes a stable funding profile over the medium term. Beyond regulatory ratios, banks are expected to have comprehensive liquidity risk management frameworks. These include contingency funding plans, stress testing scenarios for both institution-specific and market-wide disruptions, and robust governance for liquidity decisions. The ECB regularly reviews these mechanisms through targeted reviews and data submissions.",
+          "compliance_status": "non_compliant",
+          "compliance_justification": "The provided rule text focuses on conventional liquidity risk management metrics such as the Liquidity Coverage Ratio (LCR) and Net Stable Funding Ratio (NSFR), which are regulatory concepts not addressed or endorsed by AAOIFI Shariah Standards. There is no mention of Shariah-compliant liquidity management principles, such as the use of permissible (halal) assets, avoidance of interest (riba), or adherence to Islamic contracts in liquidity arrangements. Without reference to Shariah-compliant instruments or frameworks, the rule does not meet the requirements of AAOIFI Shariah Standards.",
+          "referenced_clauses": [
+            "AAOIFI Shariah Standards require that all financial practices avoid riba and involve only Shariah-compliant contracts and assets.",
+            "Liquidity management must be conducted through permissible means, ensuring that assets held for liquidity purposes comply with Islamic principles.",
+            "Risk management frameworks must incorporate Shariah governance to ensure compliance with Islamic jurisprudence."
+          ],
+          "proposed_update": "Liquidity management frameworks in Islamic financial institutions must ensure the availability of Shariah-compliant liquid assets, such as cash, balances with Islamic central banks, and readily marketable Islamic financial instruments that do not involve interest (riba) or prohibited elements. Institutions should maintain sufficient liquidity to meet obligations during stress periods through permissible contracts and assets. Contingency funding plans and stress testing must be based on Shariah-compliant scenarios, avoiding reliance on conventional interest-based instruments. Governance of liquidity decisions shall ensure adherence to Shariah principles, including supervision by qualified Shariah boards. Institutions may engage in partnerships (Sharikah) and other Islamic contracts to enhance liquidity, ensuring profit and loss sharing and risk distribution according to Shariah standards. Any guarantees or collateral used must comply with Shariah rules, and penalties for late payment should be structured as charitable donations rather than interest-based charges.",
+          "update_rationale": "The update aligns with AAOIFI Shariah Standards emphasizing the use of permissible assets and contracts in liquidity management (3/1/2 on capital contributions and permissible assets), the prohibition of interest (riba) and impermissible penalties (5/4 and related clauses on permissible guarantees and penalties), and the requirement for Shariah supervision in operations (3/1/1/3). It replaces conventional liquidity ratios (LCR, NSFR) with Shariah-compliant liquidity principles and instruments, consistent with the partnership and liability frameworks described in 3/2 and 3/1 sections."
+        }
+      },
+      {
+        "AntiMoney Laundering AML and Know Your Customer KYC": {
+          "original_text": "Compliance with anti-money laundering and counter-terrorism financing measures is a cornerstone of regulatory supervision. Banks must follow the EU's AML Directives and FATF recommendations, incorporating thorough Customer Due Diligence (CDD) and transaction monitoring. Enhanced Due Diligence (EDD) is required for higher-risk customers, particularly Politically Exposed Persons (PEPs), cross-border relationships, or unusual transaction patterns. Institutions use AI and rule-based monitoring systems to flag suspicious transactions and submit Suspicious Activity Reports (SARs) to Financial Intelligence Units (FIUs). Regular audits, staff training, and clear internal escalation procedures are part of a bank's AML framework. The consequences for breaches can be severe, ranging from financial penalties to criminal liability and reputational damage.",
+          "compliance_status": "partially_compliant",
+          "compliance_justification": "The rule text outlines comprehensive AML and CTF measures, which align with the general Shariah principle of preventing harm (darar) and ensuring ethical conduct in financial transactions. However, the provided SS summary does not include specific AAOIFI Shariah Standards related to AML/CTF compliance or detailed Shariah rulings on the use of AI in monitoring or the exact requirements for due diligence. Therefore, while the rule supports the ethical and legal framework expected in Islamic finance, the absence of explicit reference to Shariah-specific guidelines on these matters means full compliance cannot be confirmed.",
+          "referenced_clauses": [
+            "General Shariah principle of preventing harm (darar) and ensuring ethical conduct in financial transactions",
+            "Requirement for due diligence and transparency in transactions to avoid involvement in prohibited activities"
+          ]
+        }
+      },
+      {
+        "Accounting Standards": {
+          "original_text": "European banks are subject to the IAS Regulation, requiring IFRS for consolidated financial statements. IFRS 9 is especially important, as it replaces the incurred loss model with an expected credit loss approach, allowing for earlier recognition of credit deterioration. Other standards include IFRS 15 for revenue recognition, IFRS 16 for lease obligations, and IFRS 17 for insurance-related disclosures. These standards contribute to a more accurate representation of financial performance and risk. Transparency is enforced through mandatory Pillar 3 disclosures and reporting to the EBA. Annual and quarterly reports must align with standardized templates, enabling comparability across the European banking sector.",
+          "compliance_status": "non_compliant",
+          "compliance_justification": "The provided rule text focuses on compliance with IFRS and European banking regulations, which are conventional accounting standards. There is no mention or indication of adherence to AAOIFI Shariah Standards or any Shariah principles such as prohibition of riba (interest), gharar (excessive uncertainty), or ensuring transactions are based on permissible contracts like Murabaha, Ijarah, or Musharakah. Without reference to Shariah-compliant accounting or financial principles, the rule cannot be considered compliant with AAOIFI Shariah Standards.",
+          "referenced_clauses": [
+            "AAOIFI Shariah Standards require that financial products and accounting practices comply with Islamic jurisprudence, including avoidance of interest (riba) and ensuring transactions are based on permissible contracts.",
+            "Shariah compliance necessitates transparency and disclosure aligned with Islamic principles, not merely conventional IFRS standards.",
+            "Recognition of financial performance and risk must consider Shariah prohibitions and contractual validity, which are not addressed by IFRS alone."
+          ],
+          "proposed_update": "Islamic financial institutions shall prepare their consolidated financial statements in accordance with AAOIFI Shariah Standards, ensuring full compliance with Shariah principles. Specifically, accounting for Ijarah and Ijarah Muntahia Bittamleek contracts shall follow Shari'ah Standard No. 9, which governs the recognition, measurement, and disclosure of lease transactions compliant with Islamic jurisprudence. Revenue recognition, asset ownership transfer, and lease obligations must be recorded in a manner that prohibits riba (interest), avoids gharar (excessive uncertainty), and reflects permissible contracts such as Murabaha, Musharakah, and Ijarah. Transparency shall be maintained through disclosures aligned with AAOIFI requirements, ensuring comparability and Shariah compliance in all financial reporting periods.",
+          "update_rationale": "The proposed update aligns with AAOIFI Shariah Standard No. 9 on Ijarah and Ijarah Muntahia Bittamleek, which provides detailed Shariah-compliant guidance on lease transactions, including promises to lease and ownership transfer, ensuring prohibition of riba and gharar. This replaces reliance on conventional IFRS standards that do not address Shariah principles. The update ensures that financial statements reflect permissible contracts and comply with Shariah rules as mandated by the Shariah Board resolutions referenced in the provided SS excerpts."
+        }
+      },
+      {
+        "Legal Permissions & Product Approval": {
+          "original_text": "Product governance is a key concern in EU regulation. Before launching a financial product, banks must perform internal reviews and regulatory notifications to ensure compliance with consumer protection laws under MiFID II and PRIIPs. For example, structured products must clearly outline their risks, fees, and performance scenarios. Insurance-based investment products must include key information documents (KIDs) that are easy for retail investors to understand. This legal oversight aims to reduce mis-selling and enhance market discipline. Institutions found non-compliant may be required to withdraw products, compensate clients, or face enforcement actions.",
+          "compliance_status": "partially_compliant",
+          "compliance_justification": "The rule emphasizes product governance, transparency, and consumer protection, which align with general Shariah principles of fairness and avoiding harm. However, the rule focuses solely on EU regulatory frameworks (MiFID II, PRIIPs) without addressing specific Shariah requirements such as prohibition of riba (interest), gharar (excessive uncertainty), and ensuring contracts comply with Islamic modes of finance as outlined in AAOIFI standards. Since the rule does not mention adherence to these core Shariah principles or AAOIFI Shariah Standards, it cannot be considered fully compliant.",
+          "referenced_clauses": [
+            "AAOIFI Shariah Standards require financial products to avoid riba, gharar, and ensure contracts are based on permissible Islamic contracts (e.g., Murabaha, Ijara, Mudaraba).",
+            "Transparency and disclosure are necessary but must be coupled with compliance to Shariah prohibitions and contract structures.",
+            "Product governance must ensure Shariah compliance beyond conventional regulatory requirements."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Internal Rulebook": [
+      {
+        "Governance Policies": {
+          "original_text": "Banks adopt governance frameworks that promote oversight, accountability, and ethical leadership. The Board of Directors defines the strategic direction and risk appetite, supported by specialized committees such as Risk, Audit, and Remuneration. These committees ensure checks and balances across operations. For example, the Risk Committee monitors adherence to risk tolerance levels, while the Audit Committee ensures financial integrity and the effectiveness of internal controls. Additionally, many banks are adopting the SM&CR (Senior Managers & Certification Regime) principles to hold key leaders accountable and prevent regulatory failures linked to leadership negligence.",
+          "compliance_status": "partially_compliant",
+          "compliance_justification": "The rule text outlines a governance framework emphasizing oversight, accountability, and ethical leadership, which aligns with general good governance principles. However, the summary does not provide specific AAOIFI Shariah Standards related to governance frameworks, Shariah supervisory boards, or Shariah compliance oversight mechanisms. Without explicit reference to Shariah governance requirements such as the role of the Shariah Supervisory Board, Shariah audit, or adherence to Shariah rulings in strategic decisions, it is unclear if the framework fully complies with Shariah governance standards. Therefore, while the rule promotes sound governance, it lacks explicit incorporation of Shariah-specific governance elements required by AAOIFI standards.",
+          "referenced_clauses": [
+            "AAOIFI Shariah Standards require governance frameworks to include Shariah Supervisory Boards responsible for overseeing Shariah compliance in all operations.",
+            "Governance must ensure that strategic direction and risk appetite are aligned with Shariah principles.",
+            "Internal controls and audit functions should include Shariah audit to verify compliance with Shariah rulings."
+          ]
+        }
+      },
+      {
+        "Risk Management Framework": {
+          "original_text": "An effective risk management framework identifies, assesses, mitigates, and monitors all forms of financial and non-financial risk. Credit risk procedures evaluate borrower reliability and collateral value. Market risk models quantify the impact of market fluctuations on the bank’s portfolios. Operational risk controls include tracking loss events, business continuity planning, and scenario analysis. ECB-mandated stress tests simulate extreme but plausible situations, and institutions must demonstrate capital resilience under such stress. Cybersecurity and third-party risk have also emerged as priorities, prompting the integration of digital risk assessment within the enterprise risk management framework.",
+          "compliance_status": "partially_compliant",
+          "compliance_justification": "The rule outlines a comprehensive risk management framework addressing credit, market, operational, and emerging digital risks, which aligns with the general principles of prudent risk management expected in Islamic finance. However, due to the absence of specific references to Shariah compliance requirements—such as ensuring that credit risk assessments exclude interest (riba)-based elements, that market risk models respect the prohibition of gharar (excessive uncertainty), and that operational controls uphold Shariah contracts and ethical standards—the rule cannot be deemed fully compliant. Without explicit integration of Shariah principles in risk identification, assessment, and mitigation, the framework risks overlooking critical Shariah compliance aspects.",
+          "referenced_clauses": [
+            "Shariah Standards require that risk management frameworks exclude riba and gharar in credit and market risk assessments.",
+            "Operational risk controls must ensure adherence to Shariah contracts and ethical guidelines.",
+            "Stress testing and capital resilience must consider Shariah compliance impacts, not just conventional financial risks."
+          ]
+        }
+      },
+      {
+        "Product Manuals": {
+          "original_text": "Each product offered by the bank is accompanied by a comprehensive manual detailing its structure, approval workflows, eligibility criteria, pricing methods, and compliance requirements. For instance, mortgage products include underwriting criteria, collateral assessment standards, and regulatory caps on loan-to-value ratios. Derivative products explain the risk disclosures necessary for client onboarding and stress testing methodologies used in pricing and valuation. These manuals ensure consistency across front-line staff and support both compliance and customer experience objectives.",
+          "compliance_status": "partially_compliant",
+          "compliance_justification": "The rule ensures comprehensive documentation and controls for product offerings, which supports transparency and consistency. However, the summary does not provide specific AAOIFI Shariah Standards related to the permissibility of mortgage or derivative products, nor does it address key Shariah principles such as prohibition of riba (interest), gharar (excessive uncertainty), or the permissibility of derivatives. Without explicit reference to compliance with these principles, the rule cannot be deemed fully compliant. The inclusion of derivative products, which are generally subject to strict Shariah scrutiny, requires clear adherence to Shariah prohibitions and conditions that are not detailed here.",
+          "referenced_clauses": [
+            "AAOIFI standards emphasize the prohibition of riba and gharar in financial contracts.",
+            "Shariah compliance requires that product structures avoid interest-based elements and excessive uncertainty.",
+            "Derivatives must comply with specific Shariah conditions to be permissible, including clear risk disclosure and avoidance of speculation.",
+            "Mortgage products must comply with Shariah contracts such as Murabaha, Ijara, or diminishing Musharaka rather than conventional interest-based lending."
+          ]
+        }
+      },
+      {
+        "Financial Policies": {
+          "original_text": "Financial policies dictate how the bank recognizes, reports, and controls income and expenditure. Interest income and fee revenues must comply with IFRS 15 and IFRS 9 guidelines to reflect actual economic events. Expense management includes cost center reporting, provisioning methodologies, and impairment testing. Dividend policies are reviewed quarterly and subject to capital adequacy constraints to avoid regulatory breaches. Such policies enable sound financial planning and support the bank’s strategy for long-term profitability and stability.",
+          "compliance_status": "non_compliant",
+          "compliance_justification": "The rule_text permits recognition of interest income, which is explicitly prohibited under AAOIFI Shariah Standards. Compliance with IFRS 9 and IFRS 15 alone does not ensure Shariah compliance, as these standards allow interest-based income recognition that contradicts the prohibition of riba (interest). The absence of any mention of Shariah-compliant income sources such as profit-sharing or trade-based contracts indicates non-compliance.",
+          "referenced_clauses": [
+            "AAOIFI Shariah Standards prohibit recognition and earning of interest (riba) income.",
+            "Income recognition must be based on permissible contracts such as Murabaha, Ijarah, Mudarabah, or Musharakah, not conventional interest.",
+            "Financial policies must ensure all income and expenses comply with Shariah principles, avoiding interest and ensuring risk-sharing."
+          ],
+          "proposed_update": "Financial policies shall ensure that all recognized income and expenditure comply strictly with Shariah principles as outlined by AAOIFI standards. The bank shall recognize income solely from Shariah-compliant sources such as profit-sharing (Mudarabah), cost-plus sale (Murabahah), leasing (Ijarah), and other permissible trade-based contracts. Interest income is strictly prohibited and shall not be recognized under any circumstances. Fee revenues must exclude any form of commitment or facility fees and shall only include fees permissible under Shariah, such as arrangement fees for syndicated Murabahah financing or fees for feasibility studies agreed upon by the customer. Expense management shall include cost center reporting, provisioning methodologies, and impairment testing consistent with Shariah guidelines, ensuring no inclusion of interest or discounting based on the time value of money. Dividend policies shall be reviewed quarterly, ensuring distributions are based on actual profit earned and comply with capital adequacy constraints to avoid regulatory breaches. These policies shall support sound financial planning and the bank’s strategy for long-term profitability and stability within Shariah compliance.",
+          "update_rationale": "The update removes recognition of interest income, which is prohibited under AAOIFI standards (e.g., SS 3/1/5/9 prohibits accounting for time value of money or interest). It replaces IFRS-based income recognition with Shariah-compliant income sources such as profit-sharing and trade-based contracts (SS 5/4, 5/5). It prohibits commitment and facility fees (SS 2/4/1 and 2/4/2) and allows only Shariah-permissible fees like arrangement fees (SS 2/4/4) and agreed feasibility study fees (SS 2/4/5). Dividend distribution is aligned with actual profit earned, not expected profit (SS 3/1/5/10). This ensures full compliance with AAOIFI Shariah Standards and eliminates any riba-based income recognition."
+        }
+      },
+      {
+        "Compliance & Ethics": {
+          "original_text": "Internal ethics codes govern employee conduct, customer interaction, and internal accountability. Banks enforce strict anti-bribery, anti-discrimination, and whistleblower protection protocols, ensuring legal and ethical standards are upheld. Training programs are mandatory and updated regularly. Employees are expected to complete compliance certifications and refreshers to remain informed on evolving legal obligations. Furthermore, data protection procedures are fully aligned with GDPR, ensuring customer data privacy and responsible data usage. Supervisory reporting to the ECB (COREP/FINREP) and national authorities is scheduled, audited, and used as a key indicator of compliance health.",
+          "compliance_status": "partially_compliant",
+          "compliance_justification": "The internal ethics codes and enforcement of anti-bribery, anti-discrimination, and whistleblower protection protocols align with the general ethical principles emphasized in AAOIFI Shariah Standards, which require integrity, justice, and accountability in Islamic finance operations. Mandatory training and compliance certifications support the principle of ensuring informed and responsible conduct. However, the reliance on GDPR for data protection and supervisory reporting to non-Shariah authorities such as the ECB (COREP/FINREP) is not addressed in the AAOIFI Shariah Standards summary provided, and there is no explicit mention of compliance with Shariah-specific data privacy or governance requirements. Without explicit reference to Shariah governance frameworks or Shariah supervisory board oversight, the rule cannot be fully deemed compliant.",
+          "referenced_clauses": [
+            "Ethical conduct and accountability are fundamental in AAOIFI Shariah Standards, requiring avoidance of prohibited elements such as bribery and injustice.",
+            "Employee training and compliance certification are necessary to maintain adherence to Shariah principles.",
+            "Data protection and supervisory reporting must align with Shariah governance requirements, which are not explicitly covered by GDPR or conventional regulatory reporting."
+          ]
+        }
+      }
+    ]
+  }
+]

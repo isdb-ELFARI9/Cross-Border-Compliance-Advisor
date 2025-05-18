@@ -1,0 +1,79 @@
+{
+  "field_reports": {
+    "External Regulation > Liquidity Rules & Funding": [
+      {
+        "agent_name": "Ambiguity Detection Agent",
+        "field_location": "External Regulation > Liquidity Rules & Funding",
+        "analysis_result": {
+          "ambiguous": true,
+          "ambiguous_elements": [
+            {
+              "text": "adequate liquidity ratios",
+              "reason": "The term 'adequate' is subjective and lacks a specific definition, leading to ambiguity in determining the exact liquidity ratio requirements.",
+              "required_clarification": "Specify the exact liquidity ratio requirements that banks must maintain to ensure compliance with AAOIFI Shariah Standards."
+            }
+          ]
+        },
+        "severity": "high"
+      },
+      {
+        "agent_name": "Gap Detection Agent",
+        "field_location": "External Regulation > Liquidity Rules & Funding",
+        "analysis_result": {
+          "has_gaps": true,
+          "missing_elements": [
+            {
+              "requirement": "Specific liquidity ratio requirements",
+              "importance": "Liquidity ratios are crucial for assessing a bank's ability to meet short-term obligations and manage liquidity risk. AAOIFI Shariah Standards require clear guidelines on liquidity management to ensure compliance with Shariah principles.",
+              "recommendation": "Include specific liquidity ratio requirements such as the current ratio, quick ratio, or cash ratio to provide a comprehensive framework for liquidity management in line with AAOIFI Shariah Standards."
+            }
+          ]
+        },
+        "severity": "high"
+      },
+      {
+        "agent_name": "Conflict Detection Agent",
+        "field_location": "External Regulation > Liquidity Rules & Funding",
+        "analysis_result": {
+          "conflict": true,
+          "conflicting_elements": [
+            {
+              "bank_element": "adequate liquidity ratios",
+              "fas_conflict": "Lack of specific guidance on how liquidity ratios should be calculated and maintained",
+              "ss_conflict": "Failure to specify the Shariah-compliant liquidity ratio requirements"
+            }
+          ],
+          "justification": "The rule lacks specific guidance on how liquidity ratios should be calculated and maintained, which contradicts the need for clear and specific Shariah-compliant liquidity ratio requirements as outlined in the Shariah Standards.",
+          "references": [
+            "FAS -",
+            "Shariah Standard No. 8"
+          ]
+        },
+        "severity": "high"
+      },
+      {
+        "agent_name": "Risk Analysis Agent",
+        "field_location": "External Regulation > Liquidity Rules & Funding",
+        "analysis_result": {
+          "risks": [
+            {
+              "risk_name": "Parsing Error",
+              "risk_type": "Operational",
+              "description": "Failed to parse risk analysis response",
+              "shariah_implication": "Unable to assess Shariah implications",
+              "mitigation_strategy": "Review and fix the risk analysis response format",
+              "severity": "High",
+              "fas_reference": null
+            }
+          ],
+          "summary": "Error in risk analysis",
+          "fas_compliance_status": "Unknown",
+          "recommendations": [
+            "Fix the risk analysis response format"
+          ]
+        },
+        "severity": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "External Regulation": [
+      {
+        "Capital Adequacy & Risk Management": "The Basel III regulatory framework is implemented in the EU primarily through the Capital Requirements Regulation (CRR) and the Capital Requirements Directive IV (CRD IV). These regulations establish minimum capital ratios that banks must maintain, including CET1, Tier 1, and Total Capital thresholds. Capital buffers are applied as additional layers of safety. The Capital Conservation Buffer ensures that banks build up capital during non-stress periods, while the Countercyclical Buffer adjusts to economic cycles. Systemic Risk Buffers are applied to institutions whose failure could disrupt the broader economy. Moreover, supervisory authorities evaluate capital adequacy through the SREP (Supervisory Review and Evaluation Process), tailoring requirements based on individual banks’ risk profiles. Internal capital adequacy assessment processes (ICAAP) are expected to be robust, well-documented, and subject to scrutiny."
+      },
+      {
+        "Liquidity Rules & Funding": "Liquidity requirements are essential to ensure banks can meet their financial obligations during stress periods. The Liquidity Coverage Ratio (LCR) mandates that institutions maintain enough high-quality liquid assets to survive a 30-day stress scenario. The Net Stable Funding Ratio (NSFR), on the other hand, promotes a stable funding profile over the medium term. Beyond regulatory ratios, banks are expected to have comprehensive liquidity risk management frameworks. These include contingency funding plans, stress testing scenarios for both institution-specific and market-wide disruptions, and robust governance for liquidity decisions. The ECB regularly reviews these mechanisms through targeted reviews and data submissions."
+      },
+      {
+        "AntiMoney Laundering AML and Know Your Customer KYC": "Compliance with anti-money laundering and counter-terrorism financing measures is a cornerstone of regulatory supervision. Banks must follow the EU's AML Directives and FATF recommendations, incorporating thorough Customer Due Diligence (CDD) and transaction monitoring. Enhanced Due Diligence (EDD) is required for higher-risk customers, particularly Politically Exposed Persons (PEPs), cross-border relationships, or unusual transaction patterns. Institutions use AI and rule-based monitoring systems to flag suspicious transactions and submit Suspicious Activity Reports (SARs) to Financial Intelligence Units (FIUs). Regular audits, staff training, and clear internal escalation procedures are part of a bank's AML framework. The consequences for breaches can be severe, ranging from financial penalties to criminal liability and reputational damage."
+      },
+      {
+        "Accounting Standards": "European banks are subject to the IAS Regulation, requiring IFRS for consolidated financial statements. IFRS 9 is especially important, as it replaces the incurred loss model with an expected credit loss approach, allowing for earlier recognition of credit deterioration. Other standards include IFRS 15 for revenue recognition, IFRS 16 for lease obligations, and IFRS 17 for insurance-related disclosures. These standards contribute to a more accurate representation of financial performance and risk. Transparency is enforced through mandatory Pillar 3 disclosures and reporting to the EBA. Annual and quarterly reports must align with standardized templates, enabling comparability across the European banking sector."
+      },
+      {
+        "Legal Permissions & Product Approval": "Product governance is a key concern in EU regulation. Before launching a financial product, banks must perform internal reviews and regulatory notifications to ensure compliance with consumer protection laws under MiFID II and PRIIPs. For example, structured products must clearly outline their risks, fees, and performance scenarios. Insurance-based investment products must include key information documents (KIDs) that are easy for retail investors to understand. This legal oversight aims to reduce mis-selling and enhance market discipline. Institutions found non-compliant may be required to withdraw products, compensate clients, or face enforcement actions."
+      }
+    ]
+  },
+  {
+    "Internal Rulebook": [
+      {
+        "Governance Policies": "Banks adopt governance frameworks that promote oversight, accountability, and ethical leadership. The Board of Directors defines the strategic direction and risk appetite, supported by specialized committees such as Risk, Audit, and Remuneration. These committees ensure checks and balances across operations. For example, the Risk Committee monitors adherence to risk tolerance levels, while the Audit Committee ensures financial integrity and the effectiveness of internal controls. Additionally, many banks are adopting the SM&CR (Senior Managers & Certification Regime) principles to hold key leaders accountable and prevent regulatory failures linked to leadership negligence."
+      },
+      {
+        "Risk Management Framework": "An effective risk management framework identifies, assesses, mitigates, and monitors all forms of financial and non-financial risk. Credit risk procedures evaluate borrower reliability and collateral value. Market risk models quantify the impact of market fluctuations on the bank’s portfolios. Operational risk controls include tracking loss events, business continuity planning, and scenario analysis. ECB-mandated stress tests simulate extreme but plausible situations, and institutions must demonstrate capital resilience under such stress. Cybersecurity and third-party risk have also emerged as priorities, prompting the integration of digital risk assessment within the enterprise risk management framework."
+      },
+      {
+        "Product Manuals": "Each product offered by the bank is accompanied by a comprehensive manual detailing its structure, approval workflows, eligibility criteria, pricing methods, and compliance requirements. For instance, mortgage products include underwriting criteria, collateral assessment standards, and regulatory caps on loan-to-value ratios. Derivative products explain the risk disclosures necessary for client onboarding and stress testing methodologies used in pricing and valuation. These manuals ensure consistency across front-line staff and support both compliance and customer experience objectives."
+      },
+      {
+        "Financial Policies": "Financial policies dictate how the bank recognizes, reports, and controls income and expenditure. Interest income and fee revenues must comply with IFRS 15 and IFRS 9 guidelines to reflect actual economic events. Expense management includes cost center reporting, provisioning methodologies, and impairment testing. Dividend policies are reviewed quarterly and subject to capital adequacy constraints to avoid regulatory breaches. Such policies enable sound financial planning and support the bank’s strategy for long-term profitability and stability."
+      },
+      {
+        "Compliance & Ethics": "Internal ethics codes govern employee conduct, customer interaction, and internal accountability. Banks enforce strict anti-bribery, anti-discrimination, and whistleblower protection protocols, ensuring legal and ethical standards are upheld. Training programs are mandatory and updated regularly. Employees are expected to complete compliance certifications and refreshers to remain informed on evolving legal obligations. Furthermore, data protection procedures are fully aligned with GDPR, ensuring customer data privacy and responsible data usage. Supervisory reporting to the ECB (COREP/FINREP) and national authorities is scheduled, audited, and used as a key indicator of compliance health."
+      }
+    ]
+  }
+]
